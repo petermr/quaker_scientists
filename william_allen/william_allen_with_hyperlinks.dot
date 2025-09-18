@@ -1,0 +1,210 @@
+digraph WilliamAllenWithHyperlinks {
+    // Graph settings
+    rankdir=TB;
+    node [shape=box, style=filled, fontname="Arial", fontsize=9];
+    edge [fontname="Arial", fontsize=7];
+    
+    // Central figure
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" [shape=box, style=filled, fillcolor=gold, fontsize=11, fontweight=bold, penwidth=3, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    
+    // Family - pink
+    "Job Allen\n(1734-1800)\nQUAKER Silk Manufacturer" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "Margaret Stafford\n(d. 1830)\nQUAKER Mother" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "Mary Hamilton\n(d. 1796)\nQUAKER 1st Wife" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "Charlotte Hanbury\n(1762-1816)\nQUAKER 2nd Wife" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "Grizell Birkbeck\n(1762-1835)\nQUAKER 3rd Wife" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "Mary Allen\n(1796-1823)\nQUAKER Daughter" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    
+    // Hanbury Family - light blue (QUAKER family)
+    "Cornelius Hanbury\n(1796-1869)\nQUAKER Son-in-law" [fillcolor=lightblue, penwidth=2, URL="https://en.wikipedia.org/wiki/Hanbury_family"];
+    "Elizabeth Hanbury\n(d. 1826)\nQUAKER Daughter-in-law" [fillcolor=lightblue, penwidth=2, URL="https://en.wikipedia.org/wiki/Hanbury_family"];
+    "Daniel Bell Hanbury\n(1794-1882)\nQUAKER Business Partner" [fillcolor=lightblue, penwidth=2, URL="https://en.wikipedia.org/wiki/Allen_%26_Hanburys"];
+    "Daniel Hanbury\n(1825-1875)\nQUAKER Botanist" [fillcolor=lightblue, penwidth=2, URL="https://en.wikipedia.org/wiki/Daniel_Hanbury"];
+    "Charlotte Hanbury\n(daughter)\nQUAKER Granddaughter" [fillcolor=lightblue, penwidth=2, URL="https://en.wikipedia.org/wiki/Hanbury_family"];
+    
+    // Bevan Family - light green (QUAKER family)
+    "Silvanus Bevan\n(1691-1765)\nQUAKER Pharmacy Founder" [fillcolor=lightgreen, penwidth=2, URL="https://en.wikipedia.org/wiki/Silvanus_Bevan"];
+    "Timothy Bevan\n(1704-1786)\nQUAKER Brother" [fillcolor=lightgreen, penwidth=2, URL="https://en.wikipedia.org/wiki/Silvanus_Bevan"];
+    "Joseph Gurney Bevan\n(1753-1814)\nQUAKER Pharmacy Manager" [fillcolor=lightgreen, penwidth=2, URL="https://en.wikipedia.org/wiki/Silvanus_Bevan"];
+    "Samuel Mildred\n(partner)\nQUAKER Business Partner" [fillcolor=lightgreen, penwidth=2, URL="https://en.wikipedia.org/wiki/Allen_%26_Hanburys"];
+    
+    // Birkbeck Family - light yellow (QUAKER family)
+    "Wilson Birkbeck\n(d. 1826)\nQUAKER Grizell's 1st Husband" [fillcolor=lightyellow, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "Samuel Hoare Jr\n(1751-1825)\nQUAKER Grizell's Brother" [fillcolor=lightyellow, penwidth=2, URL="https://en.wikipedia.org/wiki/Samuel_Hoare_Jr"];
+    
+    // Quaker Friends & Colleagues - light cyan (QUAKER)
+    "Luke Howard\n(1772-1864)\nQUAKER Meteorologist" [fillcolor=lightcyan, penwidth=2, URL="https://en.wikipedia.org/wiki/Luke_Howard"];
+    "Joseph Fox\n(1775-1816)\nChemist" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Askesian_Society"];
+    "William Hasledine Pepys\n(1775-1856)\nChemist" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/William_Hasledine_Pepys"];
+    "William Babington\n(1756-1833)\nPhysician" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/William_Babington_(geologist)"];
+    "Astley Cooper\n(1768-1841)\nSurgeon" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Astley_Cooper"];
+    "Joseph Woods Sr\n(1738-1812)\nAbolitionist" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "Stephen Grellet\n(1773-1855)\nMissionary" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Stephen_Grellet"];
+    "Daniel Wheeler\n(1771-1840)\nMissionary" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Daniel_Wheeler_(Quaker)"];
+    "Elizabeth Fry\n(1780-1845)\nPrison Reformer" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Elizabeth_Fry"];
+    "Samuel Gurney\n(1786-1856)\nBanker" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Samuel_Gurney"];
+    "Joseph Sturge\n(1793-1859)\nAbolitionist" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Joseph_Sturge"];
+    
+    // Abolitionists - light coral
+    "William Wilberforce\n(1759-1833)\nParliamentarian" [fillcolor=lightcoral, URL="https://en.wikipedia.org/wiki/William_Wilberforce"];
+    "Thomas Clarkson\n(1760-1846)\nAbolitionist" [fillcolor=lightcoral, URL="https://en.wikipedia.org/wiki/Thomas_Clarkson"];
+    
+    // Scientific Mentors - light steel blue
+    "Humphry Davy\n(1778-1829)\nChemist" [fillcolor=lightsteelblue, URL="https://en.wikipedia.org/wiki/Humphry_Davy"];
+    "John Dalton\n(1766-1844)\nChemist" [fillcolor=lightsteelblue, URL="https://en.wikipedia.org/wiki/John_Dalton"];
+    
+    // Royal Connections - purple
+    "Tsar Alexander I\n(1777-1825)\nRussian Emperor" [fillcolor=plum, URL="https://en.wikipedia.org/wiki/Alexander_I_of_Russia"];
+    
+    // Organizations - diamonds
+    "Askesian Society\nScientific Group" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Askesian_Society"];
+    "Plough Court Pharmacy\nBusiness" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Allen_%26_Hanburys"];
+    "Society for Abolition\nof Slave Trade" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Society_for_Effecting_the_Abolition_of_the_Slave_Trade"];
+    "Newington Academy\nfor Girls" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Newington_Academy_for_Girls"];
+    "Royal Institution\nScientific" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Royal_Institution"];
+    "British and Foreign\nSchool Society" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/British_and_Foreign_School_Society"];
+    "Sierra Leone Company" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Sierra_Leone_Company"];
+    "Pharmaceutical Society" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Royal_Pharmaceutical_Society"];
+    "Lindfield Agricultural\nCommunity" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "Soup Kitchen\nSpitalfields" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    
+    // MAJOR TRAVELS AND EVENTS - orange diamonds
+    "1814 Meeting with\nTsar Alexander I\nLondon" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "1818-1820 European Tour\nwith Stephen Grellet" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Stephen_Grellet"];
+    "1819 Russia Visit\nMeeting Tsar Alexander I" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "1823 Lindfield Community\nAgricultural Experiment" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)"];
+    "1824 Newington Academy\nfor Girls Founded" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Newington_Academy_for_Girls"];
+    "1824 First School Bus\nCommissioned" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Newington_Academy_for_Girls"];
+    "1839 British and Foreign\nAnti-Slavery Society" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/British_and_Foreign_Anti-Slavery_Society"];
+    "1840 International\nAnti-Slavery Conference\nLondon" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/World_Anti-Slavery_Convention"];
+    "1840 European Tour\nwith Elizabeth Fry\nand Samuel Gurney" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Elizabeth_Fry"];
+    "1841 Pharmaceutical Society\nFounded" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Royal_Pharmaceutical_Society"];
+    
+    // Family relationships
+    "Job Allen\n(1734-1800)\nQUAKER Silk Manufacturer" -> "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" [label="father"];
+    "Margaret Stafford\n(d. 1830)\nQUAKER Mother" -> "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" [label="mother"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Mary Hamilton\n(d. 1796)\nQUAKER 1st Wife" [label="married 1796"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Charlotte Hanbury\n(1762-1816)\nQUAKER 2nd Wife" [label="married 1806"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Grizell Birkbeck\n(1762-1835)\nQUAKER 3rd Wife" [label="married 1827"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Mary Allen\n(1796-1823)\nQUAKER Daughter" [label="father"];
+    "Mary Hamilton\n(d. 1796)\nQUAKER 1st Wife" -> "Mary Allen\n(1796-1823)\nQUAKER Daughter" [label="mother"];
+    "Mary Allen\n(1796-1823)\nQUAKER Daughter" -> "Cornelius Hanbury\n(1796-1869)\nQUAKER Son-in-law" [label="married 1823"];
+    
+    // Hanbury family connections
+    "Cornelius Hanbury\n(1796-1869)\nQUAKER Son-in-law" -> "Elizabeth Hanbury\n(d. 1826)\nQUAKER Daughter-in-law" [label="married 1826"];
+    "Cornelius Hanbury\n(1796-1869)\nQUAKER Son-in-law" -> "Charlotte Hanbury\n(daughter)\nQUAKER Granddaughter" [label="father"];
+    "Elizabeth Hanbury\n(d. 1826)\nQUAKER Daughter-in-law" -> "Charlotte Hanbury\n(daughter)\nQUAKER Granddaughter" [label="mother"];
+    "Daniel Bell Hanbury\n(1794-1882)\nQUAKER Business Partner" -> "Daniel Hanbury\n(1825-1875)\nQUAKER Botanist" [label="father"];
+    
+    // Bevan family connections
+    "Silvanus Bevan\n(1691-1765)\nQUAKER Pharmacy Founder" -> "Timothy Bevan\n(1704-1786)\nQUAKER Brother" [label="brother"];
+    "Timothy Bevan\n(1704-1786)\nQUAKER Brother" -> "Joseph Gurney Bevan\n(1753-1814)\nQUAKER Pharmacy Manager" [label="father"];
+    
+    // Birkbeck family connections
+    "Wilson Birkbeck\n(d. 1826)\nQUAKER Grizell's 1st Husband" -> "Grizell Birkbeck\n(1762-1835)\nQUAKER 3rd Wife" [label="1st husband"];
+    "Grizell Birkbeck\n(1762-1835)\nQUAKER 3rd Wife" -> "Samuel Hoare Jr\n(1751-1825)\nQUAKER Grizell's Brother" [label="sister"];
+    
+    // Professional relationships
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Plough Court Pharmacy\nQUAKER Business" [label="partner"];
+    "Silvanus Bevan\n(1691-1765)\nQUAKER Pharmacy Founder" -> "Plough Court Pharmacy\nQUAKER Business" [label="founder"];
+    "Joseph Gurney Bevan\n(1753-1814)\nQUAKER Pharmacy Manager" -> "Plough Court Pharmacy\nQUAKER Business" [label="manager"];
+    "Samuel Mildred\n(partner)\nQUAKER Business Partner" -> "Plough Court Pharmacy\nQUAKER Business" [label="partner"];
+    "Daniel Bell Hanbury\n(1794-1882)\nQUAKER Business Partner" -> "Plough Court Pharmacy\nQUAKER Business" [label="partner"];
+    
+    // Scientific collaborations
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Askesian Society\nQUAKER Scientific Group" [label="co-founder"];
+    "Luke Howard\n(1772-1864)\nQUAKER Meteorologist" -> "Askesian Society\nQUAKER Scientific Group" [label="member"];
+    "Joseph Fox\n(1775-1816)\nQUAKER Chemist" -> "Askesian Society\nQUAKER Scientific Group" [label="member"];
+    "William Hasledine Pepys\n(1775-1856)\nQUAKER Chemist" -> "Askesian Society\nQUAKER Scientific Group" [label="member"];
+    "William Babington\n(1756-1833)\nQUAKER Physician" -> "Askesian Society\nQUAKER Scientific Group" [label="member"];
+    "Astley Cooper\n(1768-1841)\nQUAKER Surgeon" -> "Askesian Society\nQUAKER Scientific Group" [label="member"];
+    
+    // Mentorship relationships
+    "Humphry Davy\n(1778-1829)\nAnglican Chemist" -> "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" [label="mentor"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist" -> "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" [label="mentor"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Daniel Bell Hanbury\n(1794-1882)\nQUAKER Business Partner" [label="mentor"];
+    
+    // Quaker friendships
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Luke Howard\n(1772-1864)\nQUAKER Meteorologist" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Joseph Fox\n(1775-1816)\nQUAKER Chemist" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "William Hasledine Pepys\n(1775-1856)\nQUAKER Chemist" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "William Babington\n(1756-1833)\nQUAKER Physician" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Astley Cooper\n(1768-1841)\nQUAKER Surgeon" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Samuel Hoare Jr\n(1751-1825)\nQUAKER Grizell's Brother" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Joseph Woods Sr\n(1738-1812)\nQUAKER Abolitionist" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Stephen Grellet\n(1773-1855)\nQUAKER Missionary" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Daniel Wheeler\n(1771-1840)\nQUAKER Missionary" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Elizabeth Fry\n(1780-1845)\nQUAKER Prison Reformer" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Samuel Gurney\n(1786-1856)\nQUAKER Banker" [label="friend"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Joseph Sturge\n(1793-1859)\nQUAKER Abolitionist" [label="friend"];
+    
+    // Abolitionist collaborations
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Society for Abolition\nof Slave Trade\nMixed Quaker/Anglican" [label="member"];
+    "Samuel Hoare Jr\n(1751-1825)\nQUAKER Grizell's Brother" -> "Society for Abolition\nof Slave Trade\nMixed Quaker/Anglican" [label="founder"];
+    "William Wilberforce\n(1759-1833)\nAnglican Parliamentarian" -> "Society for Abolition\nof Slave Trade\nMixed Quaker/Anglican" [label="member"];
+    "Thomas Clarkson\n(1760-1846)\nAnglican Abolitionist" -> "Society for Abolition\nof Slave Trade\nMixed Quaker/Anglican" [label="member"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "William Wilberforce\n(1759-1833)\nAnglican Parliamentarian" [label="collaborator"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Thomas Clarkson\n(1760-1846)\nAnglican Abolitionist" [label="collaborator"];
+    
+    // Educational connections
+    "Grizell Birkbeck\n(1762-1835)\nQUAKER 3rd Wife" -> "Newington Academy\nfor Girls\nQUAKER School" [label="co-founder"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Newington Academy\nfor Girls\nQUAKER School" [label="supporter"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Royal Institution\nAnglican Scientific" [label="lecturer"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "British and Foreign\nSchool Society\nMixed Quaker/Anglican" [label="co-founder"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Sierra Leone Company\nMixed Quaker/Anglican" [label="co-founder"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Pharmaceutical Society\nMixed Quaker/Anglican" [label="co-founder"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Lindfield Agricultural\nCommunity\nQUAKER Community" [label="established"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "Soup Kitchen\nSpitalfields\nQUAKER Initiative" [label="established"];
+    
+    // MAJOR TRAVELS AND EVENTS
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1814 Meeting with\nTsar Alexander I\nLondon" [label="hosted"];
+    "Tsar Alexander I\n(1777-1825)\nRussian Emperor" -> "1814 Meeting with\nTsar Alexander I\nLondon" [label="attended"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1818-1820 European Tour\nwith Stephen Grellet" [label="undertook"];
+    "Stephen Grellet\n(1773-1855)\nQUAKER Missionary" -> "1818-1820 European Tour\nwith Stephen Grellet" [label="traveled with"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1819 Russia Visit\nMeeting Tsar Alexander I" [label="undertook"];
+    "Tsar Alexander I\n(1777-1825)\nRussian Emperor" -> "1819 Russia Visit\nMeeting Tsar Alexander I" [label="met with"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1823 Lindfield Community\nAgricultural Experiment" [label="established"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1824 Newington Academy\nfor Girls Founded" [label="founded"];
+    "Newington Academy\nfor Girls\nQUAKER School" -> "1824 Newington Academy\nfor Girls Founded" [label="resulted from"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1824 First School Bus\nCommissioned" [label="commissioned"];
+    "Newington Academy\nfor Girls\nQUAKER School" -> "1824 First School Bus\nCommissioned" [label="used by"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1839 British and Foreign\nAnti-Slavery Society" [label="co-founded"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1840 International\nAnti-Slavery Conference\nLondon" [label="organized"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1840 European Tour\nwith Elizabeth Fry\nand Samuel Gurney" [label="undertook"];
+    "Elizabeth Fry\n(1780-1845)\nQUAKER Prison Reformer" -> "1840 European Tour\nwith Elizabeth Fry\nand Samuel Gurney" [label="traveled with"];
+    "Samuel Gurney\n(1786-1856)\nQUAKER Banker" -> "1840 European Tour\nwith Elizabeth Fry\nand Samuel Gurney" [label="traveled with"];
+    "William Allen\n(1770-1843)\nQUAKER Scientist & Philanthropist" -> "1841 Pharmaceutical Society\nFounded" [label="co-founded"];
+    
+    // Legend
+    subgraph cluster_legend {
+        label="LEGEND - Color Coding & Quaker Connections";
+        style=filled;
+        fillcolor=white;
+        fontsize=12;
+        fontweight=bold;
+        
+        // Family connections (thick borders)
+        "Family\n(Thick Border)" [fillcolor=lightpink, penwidth=3, fontweight=bold];
+        "Hanbury Family\n(Thick Border)" [fillcolor=lightblue, penwidth=3, fontweight=bold];
+        "Bevan Family\n(Thick Border)" [fillcolor=lightgreen, penwidth=3, fontweight=bold];
+        "Birkbeck Family\n(Thick Border)" [fillcolor=lightyellow, penwidth=3, fontweight=bold];
+        "Friends & Scientists\n(Thick Border)" [fillcolor=lightcyan, penwidth=3, fontweight=bold];
+        "Organizations\n(Thick Border)" [fillcolor=lightgray, penwidth=3, fontweight=bold, shape=diamond];
+        "Events\n(Thick Border)" [fillcolor=orange, penwidth=3, fontweight=bold, shape=diamond];
+        
+        // Other connections (thin borders)
+        "Abolitionists\n(Thin Border)" [fillcolor=lightcoral];
+        "Scientists\n(Thin Border)" [fillcolor=lightsteelblue];
+        "Organizations\n(Thin Border)" [fillcolor=lightgray, shape=diamond];
+        "Royal Connections\n(Thin Border)" [fillcolor=plum];
+        
+        // Central figure
+        "William Allen\nCentral Figure" [fillcolor=gold, penwidth=3, fontweight=bold];
+        
+        // New category
+        "MAJOR TRAVELS & EVENTS\n(Orange Diamonds)" [fillcolor=orange, penwidth=3, fontweight=bold, shape=diamond];
+        
+        // Hyperlinks note
+        "🔗 All nodes are clickable\nwith Wikipedia links" [fillcolor=white, fontsize=10, shape=note];
+    }
+}

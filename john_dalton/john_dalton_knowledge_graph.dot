@@ -1,0 +1,116 @@
+digraph JohnDaltonConnections {
+    // Graph settings
+    rankdir=TB;
+    node [shape=box, style=filled, fontname="Arial", fontsize=9];
+    edge [fontname="Arial", fontsize=7];
+    
+    // Central figure
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" [shape=box, style=filled, fillcolor=gold, fontsize=11, fontweight=bold, penwidth=3];
+    
+    // Family - pink
+    "Joseph Dalton\n(1727-1794)\nQUAKER Father" [fillcolor=lightpink, penwidth=2];
+    "Deborah Greenup\n(1727-1778)\nQUAKER Mother" [fillcolor=lightpink, penwidth=2];
+    "Mary Dalton\n(1760-1830)\nQUAKER Sister" [fillcolor=lightpink, penwidth=2];
+    "Jonathan Dalton\n(1764-1844)\nQUAKER Brother" [fillcolor=lightpink, penwidth=2];
+    
+    // Quaker Mentors - light cyan
+    "Elihu Robinson\n(1734-1809)\nQUAKER Mentor" [fillcolor=lightcyan, penwidth=2];
+    "John Gough\n(1757-1825)\nQUAKER Mentor" [fillcolor=lightcyan, penwidth=2];
+    "George Bewley\n(1750-1828)\nQUAKER Mentor" [fillcolor=lightcyan, penwidth=2];
+    
+    // Scientific Colleagues - light steel blue
+    "William Henry\n(1774-1836)\nQUAKER Chemist" [fillcolor=lightsteelblue, penwidth=2];
+    "Thomas Thomson\n(1773-1852)\nQUAKER Chemist" [fillcolor=lightsteelblue, penwidth=2];
+    "James Prescott Joule\n(1818-1889)\nQUAKER Physicist" [fillcolor=lightsteelblue, penwidth=2];
+    "William Allen\n(1770-1843)\nQUAKER Scientist" [fillcolor=lightsteelblue, penwidth=2];
+    "Luke Howard\n(1772-1864)\nQUAKER Meteorologist" [fillcolor=lightsteelblue, penwidth=2];
+    
+    // Non-Quaker Scientists - light coral
+    "Joseph Priestley\n(1733-1804)\nDissenter Chemist" [fillcolor=lightcoral];
+    "Humphry Davy\n(1778-1829)\nAnglican Chemist" [fillcolor=lightcoral];
+    "Michael Faraday\n(1791-1867)\nAnglican Physicist" [fillcolor=lightcoral];
+    
+    // Organizations - diamonds
+    "Manchester Literary\nand Philosophical Society\nQUAKER Scientific Group" [shape=diamond, fillcolor=lightgray, penwidth=2];
+    "Royal Society\nAnglican Scientific" [shape=diamond, fillcolor=lightgray];
+    "New College Manchester\nQUAKER Academy" [shape=diamond, fillcolor=lightgray, penwidth=2];
+    "Manchester Academy\nQUAKER School" [shape=diamond, fillcolor=lightgray, penwidth=2];
+    "Askesian Society\nQUAKER Scientific Group" [shape=diamond, fillcolor=lightgray, penwidth=2];
+    
+    // Scientific Contributions - orange diamonds
+    "Atomic Theory\n(1808)" [shape=diamond, fillcolor=orange, penwidth=2];
+    "Dalton's Law\nof Partial Pressures" [shape=diamond, fillcolor=orange, penwidth=2];
+    "Color Blindness\nResearch (1794)" [shape=diamond, fillcolor=orange, penwidth=2];
+    "Meteorological\nObservations" [shape=diamond, fillcolor=orange, penwidth=2];
+    "A New System of\nChemical Philosophy" [shape=diamond, fillcolor=orange, penwidth=2];
+    "Meteorological\nObservations and Essays" [shape=diamond, fillcolor=orange, penwidth=2];
+    
+    // Family relationships
+    "Joseph Dalton\n(1727-1794)\nQUAKER Father" -> "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" [label="father"];
+    "Deborah Greenup\n(1727-1778)\nQUAKER Mother" -> "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" [label="mother"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Mary Dalton\n(1760-1830)\nQUAKER Sister" [label="brother"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Jonathan Dalton\n(1764-1844)\nQUAKER Brother" [label="brother"];
+    
+    // Quaker mentorships
+    "Elihu Robinson\n(1734-1809)\nQUAKER Mentor" -> "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" [label="mentor"];
+    "John Gough\n(1757-1825)\nQUAKER Mentor" -> "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" [label="mentor"];
+    "George Bewley\n(1750-1828)\nQUAKER Mentor" -> "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" [label="mentor"];
+    
+    // Scientific mentorships
+    "Joseph Priestley\n(1733-1804)\nDissenter Chemist" -> "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" [label="influenced"];
+    "Humphry Davy\n(1778-1829)\nAnglican Chemist" -> "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" [label="influenced"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "James Prescott Joule\n(1818-1889)\nQUAKER Physicist" [label="mentor"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "William Henry\n(1774-1836)\nQUAKER Chemist" [label="mentor"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Thomas Thomson\n(1773-1852)\nQUAKER Chemist" [label="mentor"];
+    
+    // Quaker friendships
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "William Allen\n(1770-1843)\nQUAKER Scientist" [label="friend"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Luke Howard\n(1772-1864)\nQUAKER Meteorologist" [label="friend"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "William Henry\n(1774-1836)\nQUAKER Chemist" [label="friend"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Thomas Thomson\n(1773-1852)\nQUAKER Chemist" [label="friend"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "James Prescott Joule\n(1818-1889)\nQUAKER Physicist" [label="friend"];
+    
+    // Non-Quaker collaborations
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Joseph Priestley\n(1733-1804)\nDissenter Chemist" [label="collaborator"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Humphry Davy\n(1778-1829)\nAnglican Chemist" [label="collaborator"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Michael Faraday\n(1791-1867)\nAnglican Physicist" [label="influenced"];
+    
+    // Organization memberships
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Manchester Literary\nand Philosophical Society\nQUAKER Scientific Group" [label="member"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Royal Society\nAnglican Scientific" [label="fellow"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "New College Manchester\nQUAKER Academy" [label="teacher"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Manchester Academy\nQUAKER School" [label="student"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Askesian Society\nQUAKER Scientific Group" [label="member"];
+    
+    // Scientific contributions
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Atomic Theory\n(1808)" [label="developed"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Dalton's Law\nof Partial Pressures" [label="formulated"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Color Blindness\nResearch (1794)" [label="conducted"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Meteorological\nObservations" [label="maintained"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "A New System of\nChemical Philosophy" [label="authored"];
+    "John Dalton\n(1766-1844)\nQUAKER Chemist & Physicist" -> "Meteorological\nObservations and Essays" [label="authored"];
+    
+    // Legend
+    subgraph cluster_legend {
+        label="LEGEND - Color Coding & Quaker Connections";
+        style=filled;
+        fillcolor=white;
+        fontsize=12;
+        fontweight=bold;
+        
+        // Quaker connections (thick borders)
+        "QUAKER Family\n(Thick Border)" [fillcolor=lightpink, penwidth=3, fontweight=bold];
+        "QUAKER Mentors\n(Thick Border)" [fillcolor=lightcyan, penwidth=3, fontweight=bold];
+        "QUAKER Scientists\n(Thick Border)" [fillcolor=lightsteelblue, penwidth=3, fontweight=bold];
+        "QUAKER Organizations\n(Thick Border)" [fillcolor=lightgray, penwidth=3, fontweight=bold, shape=diamond];
+        "QUAKER Contributions\n(Thick Border)" [fillcolor=orange, penwidth=3, fontweight=bold, shape=diamond];
+        
+        // Non-Quaker connections (thin borders)
+        "Non-Quaker Scientists\n(Thin Border)" [fillcolor=lightcoral];
+        "Anglican Organizations\n(Thin Border)" [fillcolor=lightgray, shape=diamond];
+        
+        // Central figure
+        "John Dalton\nCentral Figure" [fillcolor=gold, penwidth=3, fontweight=bold];
+    }
+}
+

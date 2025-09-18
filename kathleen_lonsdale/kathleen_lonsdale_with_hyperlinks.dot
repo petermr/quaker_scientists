@@ -1,0 +1,148 @@
+digraph KathleenLonsdaleWithHyperlinks {
+    // Graph settings
+    rankdir=TB;
+    node [shape=box, style=filled, fontname="Arial", fontsize=9];
+    edge [fontname="Arial", fontsize=7];
+    
+    // Central figure
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" [shape=box, style=filled, fillcolor=gold, fontsize=11, fontweight=bold, penwidth=3, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    
+    // Family - pink
+    "Harry Yardley\n(1870-1940)\nFather" [fillcolor=lightpink, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "Jessie Cameron\n(1875-1950)\nMother" [fillcolor=lightpink, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "Thomas Lonsdale\n(1900-1994)\nQUAKER Husband" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "Jane Lonsdale\n(daughter)\nQUAKER Daughter" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "Nancy Lonsdale\n(daughter)\nQUAKER Daughter" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "Patricia Lonsdale\n(daughter)\nQUAKER Daughter" [fillcolor=lightpink, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    
+    // Mentors & Colleagues - light cyan
+    "William Henry Bragg\n(1862-1942)\nMentor" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/William_Henry_Bragg"];
+    "Lawrence Bragg\n(1890-1971)\nColleague" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Lawrence_Bragg"];
+    "Dorothy Hodgkin\n(1910-1994)\nCrystallographer" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Dorothy_Hodgkin"];
+    "Rosalind Franklin\n(1920-1958)\nCrystallographer" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/Rosalind_Franklin"];
+    "John Desmond Bernal\n(1901-1971)\nCrystallographer" [fillcolor=lightcyan, URL="https://en.wikipedia.org/wiki/J._D._Bernal"];
+    
+    // Other Scientists - light coral
+    "Max Perutz\n(1914-2002)\nCrystallographer" [fillcolor=lightcoral, URL="https://en.wikipedia.org/wiki/Max_Perutz"];
+    "Francis Crick\n(1916-2004)\nBiologist" [fillcolor=lightcoral, URL="https://en.wikipedia.org/wiki/Francis_Crick"];
+    "James Watson\n(1928-)\nBiologist" [fillcolor=lightcoral, URL="https://en.wikipedia.org/wiki/James_Watson"];
+    "Linus Pauling\n(1901-1994)\nChemist" [fillcolor=lightcoral, URL="https://en.wikipedia.org/wiki/Linus_Pauling"];
+    
+    // Organizations - diamonds
+    "University College London\nEducational Institution" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/University_College_London"];
+    "Royal Institution\nScientific" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Royal_Institution"];
+    "Bedford College\nWomen's College" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Bedford_College,_London"];
+    "Royal Society\nScientific" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Royal_Society"];
+    "International Union\nof Crystallography" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/International_Union_of_Crystallography"];
+    "British Association\nfor Advancement of Science" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/British_Science_Association"];
+    "Quaker Society\nof Friends" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Quakers"];
+    "Pugwash Conferences\nPeace Organization" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Pugwash_Conferences"];
+    "Women's International League\nfor Peace and Freedom" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Women%27s_International_League_for_Peace_and_Freedom"];
+    "Howard League\nfor Penal Reform" [shape=diamond, fillcolor=lightgray, URL="https://en.wikipedia.org/wiki/Howard_League_for_Penal_Reform"];
+    
+    // Scientific Contributions - orange diamonds
+    "Benzene Structure\nDetermination (1929)" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Benzene"];
+    "Diamond Structure\nAnalysis (1929)" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Diamond"];
+    "Hexachlorobenzene\nStructure (1931)" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Hexachlorobenzene"];
+    "Crystallographic\nTables (1934)" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "X-ray Diffraction\nTechniques" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/X-ray_crystallography"];
+    "Lonsdaleite\nMineral Discovery" [shape=diamond, fillcolor=orange, penwidth=2, URL="https://en.wikipedia.org/wiki/Lonsdaleite"];
+    
+    // Major Events - purple diamonds
+    "1922 Bedford College\nStudent" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "1924 UCL\nResearcher" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "1927 Marriage to\nThomas Lonsdale" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "1936 Quaker\nConversion" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "1943 Holloway Prison\nImprisonment" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/HMP_Holloway"];
+    "1945 First Woman\nRoyal Society Fellow" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/Royal_Society"];
+    "1949 UCL Professor\nof Chemistry" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    "1956 Dame Commander\nof the British Empire" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/Order_of_the_British_Empire"];
+    "1957 Davy Medal\nAward" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/Davy_Medal"];
+    "1966 IUCr President\nFirst Woman" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/International_Union_of_Crystallography"];
+    "1968 BAAS President\nFirst Woman" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/British_Science_Association"];
+    "1971 Death\nLondon" [shape=diamond, fillcolor=plum, penwidth=2, URL="https://en.wikipedia.org/wiki/Kathleen_Lonsdale"];
+    
+    // Family relationships
+    "Harry Yardley\n(1870-1940)\nFather" -> "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" [label="father"];
+    "Jessie Cameron\n(1875-1950)\nMother" -> "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" [label="mother"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Thomas Lonsdale\n(1900-1994)\nQUAKER Husband" [label="married 1927"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Jane Lonsdale\n(daughter)\nQUAKER Daughter" [label="mother"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Nancy Lonsdale\n(daughter)\nQUAKER Daughter" [label="mother"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Patricia Lonsdale\n(daughter)\nQUAKER Daughter" [label="mother"];
+    "Thomas Lonsdale\n(1900-1994)\nQUAKER Husband" -> "Jane Lonsdale\n(daughter)\nQUAKER Daughter" [label="father"];
+    "Thomas Lonsdale\n(1900-1994)\nQUAKER Husband" -> "Nancy Lonsdale\n(daughter)\nQUAKER Daughter" [label="father"];
+    "Thomas Lonsdale\n(1900-1994)\nQUAKER Husband" -> "Patricia Lonsdale\n(daughter)\nQUAKER Daughter" [label="father"];
+    
+    // Quaker mentorships
+    "William Henry Bragg\n(1862-1942)\nQUAKER Mentor" -> "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" [label="mentor"];
+    "Lawrence Bragg\n(1890-1971)\nQUAKER Colleague" -> "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" [label="mentor"];
+    
+    // Scientific collaborations
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Dorothy Hodgkin\n(1910-1994)\nQUAKER Crystallographer" [label="collaborator"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Rosalind Franklin\n(1920-1958)\nQUAKER Crystallographer" [label="mentor"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "John Desmond Bernal\n(1901-1971)\nQUAKER Crystallographer" [label="collaborator"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Max Perutz\n(1914-2002)\nAustrian Crystallographer" [label="collaborator"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Francis Crick\n(1916-2004)\nAnglican Biologist" [label="influenced"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "James Watson\n(1928-)\nAnglican Biologist" [label="influenced"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Linus Pauling\n(1901-1994)\nAmerican Chemist" [label="collaborator"];
+    
+    // Organization memberships
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "University College London\nQUAKER Institution" [label="professor"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Royal Institution\nAnglican Scientific" [label="researcher"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Bedford College\nQUAKER Women's College" [label="student"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Royal Society\nAnglican Scientific" [label="fellow"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "International Union\nof Crystallography\nMixed Quaker/Anglican" [label="president"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "British Association\nfor Advancement of Science\nMixed Quaker/Anglican" [label="president"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Quaker Society\nof Friends\nQUAKER Organization" [label="member"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Pugwash Conferences\nQUAKER Peace Organization" [label="member"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Women's International League\nfor Peace and Freedom\nQUAKER Organization" [label="president"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Howard League\nfor Penal Reform\nQUAKER Organization" [label="member"];
+    
+    // Scientific contributions
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Benzene Structure\nDetermination (1929)" [label="discovered"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Diamond Structure\nAnalysis (1929)" [label="analyzed"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Hexachlorobenzene\nStructure (1931)" [label="determined"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Crystallographic\nTables (1934)" [label="compiled"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "X-ray Diffraction\nTechniques" [label="developed"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "Lonsdaleite\nMineral Discovery" [label="namesake"];
+    
+    // Major events
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1922 Bedford College\nStudent" [label="attended"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1924 UCL\nResearcher" [label="joined"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1927 Marriage to\nThomas Lonsdale" [label="married"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1936 Quaker\nConversion" [label="converted"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1943 Holloway Prison\nImprisonment" [label="imprisoned"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1945 First Woman\nRoyal Society Fellow" [label="achieved"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1949 UCL Professor\nof Chemistry" [label="appointed"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1956 Dame Commander\nof the British Empire" [label="awarded"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1957 Davy Medal\nAward" [label="received"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1966 IUCr President\nFirst Woman" [label="elected"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1968 BAAS President\nFirst Woman" [label="elected"];
+    "Kathleen Lonsdale\n(1903-1971)\nQUAKER Crystallographer" -> "1971 Death\nLondon" [label="died"];
+    
+    // Legend
+    subgraph cluster_legend {
+        label="LEGEND - Color Coding & Quaker Connections";
+        style=filled;
+        fillcolor=white;
+        fontsize=12;
+        fontweight=bold;
+        
+        // Family and professional connections (thick borders)
+        "Family\n(Thick Border)" [fillcolor=lightpink, penwidth=3, fontweight=bold];
+        "Organizations\n(Thick Border)" [fillcolor=lightgray, penwidth=3, fontweight=bold, shape=diamond];
+        "Contributions\n(Thick Border)" [fillcolor=orange, penwidth=3, fontweight=bold, shape=diamond];
+        "Events\n(Thick Border)" [fillcolor=plum, penwidth=3, fontweight=bold, shape=diamond];
+        
+        // Other connections (thin borders)
+        "Other Scientists\n(Thin Border)" [fillcolor=lightcoral];
+        "Mentors & Colleagues\n(Thin Border)" [fillcolor=lightcyan];
+        "Organizations\n(Thin Border)" [fillcolor=lightgray, shape=diamond];
+        
+        // Central figure
+        "Kathleen Lonsdale\nCentral Figure" [fillcolor=gold, penwidth=3, fontweight=bold];
+        
+        // Hyperlinks note
+        "🔗 All nodes are clickable\nwith Wikipedia links" [fillcolor=white, fontsize=10, shape=note];
+    }
+}
