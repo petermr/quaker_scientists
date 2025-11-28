@@ -198,3 +198,5 @@ A series of 5 monthly meetings (90 minutes each) designed to explore the interse
 ---
 
 *This proposal is designed to be flexible and responsive to the needs and interests of the participating community while maintaining the Quaker tradition of communal discernment and reflection.*
+
+

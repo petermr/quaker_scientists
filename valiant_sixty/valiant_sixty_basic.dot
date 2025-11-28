@@ -1,0 +1,41 @@
+digraph ValiantSixty {
+    // Graph settings
+    rankdir=TB;
+    node [shape=box, style=filled, fontname="Arial", fontsize=9];
+    edge [fontname="Arial", fontsize=7];
+
+    "george_fox" [fillcolor=gold, penwidth=3, shape=box, URL="https://en.wikipedia.org/wiki/George_Fox", label="George Fox\n(1624-1691)\nQUAKER Founder", fontweight=bold];
+    "margaret_fell" [fillcolor=gold, penwidth=3, shape=box, URL="https://en.wikipedia.org/wiki/Margaret_Fell", label="Margaret Fell\n(1614-1702)\nQUAKER Leader", fontweight=bold];
+    "example_member" [fillcolor=lightsteelblue, penwidth=2, shape=box, URL="[Wikipedia URL]", label="[Member Name]\n([Birth-Death])\nQUAKER Missionary", fontweight=bold];
+    "swarthmoor_hall" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Swarthmoor_Hall", label="Swarthmoor Hall\nQUAKER Meeting House", fontweight=bold];
+    "example_event" [fillcolor=orange, penwidth=2, shape=diamond, URL="[Wikipedia URL if available]", label="[Event Name]\n[Date]", fontweight=bold];
+
+    "george_fox" -> "margaret_fell" [label="married", tooltip="Married in 1669"];
+    "george_fox" -> "example_member" [label="mentor", tooltip="George Fox mentored this member"];
+    "example_member" -> "swarthmoor_hall" [label="visited", tooltip="Member visited or was associated with Swarthmoor Hall"];
+    "example_member" -> "example_event" [label="participated", tooltip="Member participated in this event"];
+
+    // Legend
+    subgraph cluster_legend {
+        label="LEGEND - Color Coding & Quaker Connections";
+        style=filled;
+        fillcolor=white;
+        fontsize=12;
+        fontweight=bold;
+
+        "Central Figures
+(Thick Border)" [fillcolor=gold, penwidth=3, fontweight=bold];
+        "QUAKER Family
+(Thick Border)" [fillcolor=lightpink, penwidth=3, fontweight=bold];
+        "QUAKER Leaders
+(Thick Border)" [fillcolor=lightcyan, penwidth=3, fontweight=bold];
+        "Valiant Sixty Members
+(Thick Border)" [fillcolor=lightsteelblue, penwidth=3, fontweight=bold];
+        "Non-Quaker
+(Thin Border)" [fillcolor=lightcoral, penwidth=1];
+        "QUAKER Places
+(Thick Border)" [fillcolor=lightgray, penwidth=3, fontweight=bold, shape=diamond];
+        "Events
+(Thick Border)" [fillcolor=orange, penwidth=3, fontweight=bold, shape=diamond];
+    }
+}

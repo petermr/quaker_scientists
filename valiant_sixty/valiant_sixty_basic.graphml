@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  
+  <!-- Key definitions for node attributes -->
+  <key id="d0" for="node" attr.name="name" attr.type="string"/>
+  <key id="d1" for="node" attr.name="type" attr.type="string"/>
+  <key id="d2" for="node" attr.name="subtype" attr.type="string"/>
+  <key id="d3" for="node" attr.name="birth_date" attr.type="string"/>
+  <key id="d4" for="node" attr.name="birth_place" attr.type="string"/>
+  <key id="d5" for="node" attr.name="death_date" attr.type="string"/>
+  <key id="d6" for="node" attr.name="death_place" attr.type="string"/>
+  <key id="d7" for="node" attr.name="quaker_status" attr.type="string"/>
+  <key id="d8" for="node" attr.name="occupation" attr.type="string"/>
+  <key id="d9" for="node" attr.name="primary_ministry_area" attr.type="string"/>
+  <key id="d10" for="node" attr.name="wikipedia_url" attr.type="string"/>
+  <key id="d11" for="node" attr.name="quaker_org_url" attr.type="string"/>
+  <key id="d12" for="node" attr.name="fillcolor" attr.type="string"/>
+  <key id="d13" for="node" attr.name="penwidth" attr.type="int"/>
+  <key id="d14" for="node" attr.name="shape" attr.type="string"/>
+  <key id="d15" for="node" attr.name="label" attr.type="string"/>
+  
+  <!-- Key definitions for edge attributes -->
+  <key id="e0" for="edge" attr.name="relationship_type" attr.type="string"/>
+  <key id="e1" for="edge" attr.name="start_date" attr.type="string"/>
+  <key id="e2" for="edge" attr.name="end_date" attr.type="string"/>
+  <key id="e3" for="edge" attr.name="description" attr.type="string"/>
+  <key id="e4" for="edge" attr.name="source_url" attr.type="string"/>
+  <key id="e5" for="edge" attr.name="label" attr.type="string"/>
+  
+  <!-- Key definitions for graph metadata -->
+  <key id="g0" for="graph" attr.name="title" attr.type="string"/>
+  <key id="g1" for="graph" attr.name="description" attr.type="string"/>
+  <key id="g2" for="graph" attr.name="created_date" attr.type="string"/>
+  <key id="g3" for="graph" attr.name="version" attr.type="string"/>
+  <key id="g4" for="graph" attr.name="graphviz_rankdir" attr.type="string"/>
+  <key id="g5" for="graph" attr.name="graphviz_node_style" attr.type="string"/>
+  <key id="g6" for="graph" attr.name="graphviz_edge_style" attr.type="string"/>
+  
+  <!-- Graph definition with metadata -->
+  <graph id="valiant_sixty" edgedefault="directed">
+    <data key="g0">The Valiant Sixty Knowledge Graph</data>
+    <data key="g1">Knowledge graph of 17th century Quaker missionaries known as The Valiant Sixty</data>
+    <data key="g2">2025-11-28</data>
+    <data key="g3">1.0</data>
+    <data key="g4">TB</data>
+    <data key="g5">filled</data>
+    <data key="g6">default</data>
+    
+    <!-- Example: George Fox (Central Figure) -->
+    <node id="george_fox">
+      <data key="d0">George Fox</data>
+      <data key="d1">Person</data>
+      <data key="d2">Quaker Founder</data>
+      <data key="d3">1624-07</data>
+      <data key="d4">Fenny Drayton, Leicestershire, England</data>
+      <data key="d5">1691-01-13</data>
+      <data key="d6">London, England</data>
+      <data key="d7">QUAKER</data>
+      <data key="d8">Religious Leader</data>
+      <data key="d9">Throughout Britain and America</data>
+      <data key="d10">https://en.wikipedia.org/wiki/George_Fox</data>
+      <data key="d11">https://www.quaker.org.uk/</data>
+      <data key="d12">gold</data>
+      <data key="d13">3</data>
+      <data key="d14">box</data>
+      <data key="d15">George Fox\n(1624-1691)\nQUAKER Founder</data>
+    </node>
+    
+    <!-- Example: Margaret Fell (Central Figure) -->
+    <node id="margaret_fell">
+      <data key="d0">Margaret Fell</data>
+      <data key="d1">Person</data>
+      <data key="d2">Quaker Leader</data>
+      <data key="d3">1614</data>
+      <data key="d4">Marsh Grange, Lancashire, England</data>
+      <data key="d5">1702-04-23</data>
+      <data key="d6">Swarthmoor Hall, Lancashire, England</data>
+      <data key="d7">QUAKER</data>
+      <data key="d8">Religious Leader</data>
+      <data key="d9">Lancashire and throughout Britain</data>
+      <data key="d10">https://en.wikipedia.org/wiki/Margaret_Fell</data>
+      <data key="d11">https://www.quaker.org.uk/</data>
+      <data key="d12">gold</data>
+      <data key="d13">3</data>
+      <data key="d14">box</data>
+      <data key="d15">Margaret Fell\n(1614-1702)\nQUAKER Leader</data>
+    </node>
+    
+    <!-- Example: Valiant Sixty Member (Template) -->
+    <node id="example_member">
+      <data key="d0">[Member Name]</data>
+      <data key="d1">Person</data>
+      <data key="d2">Valiant Sixty Member</data>
+      <data key="d3">[Birth Date]</data>
+      <data key="d4">[Birth Place]</data>
+      <data key="d5">[Death Date]</data>
+      <data key="d6">[Death Place]</data>
+      <data key="d7">QUAKER</data>
+      <data key="d8">[Occupation]</data>
+      <data key="d9">[Primary Ministry Area]</data>
+      <data key="d10">[Wikipedia URL]</data>
+      <data key="d11">[Quaker.org.uk URL]</data>
+      <data key="d12">lightsteelblue</data>
+      <data key="d13">2</data>
+      <data key="d14">box</data>
+      <data key="d15">[Member Name]\n([Birth-Death])\nQUAKER Missionary</data>
+    </node>
+    
+    <!-- Example: Meeting House (Place) -->
+    <node id="swarthmoor_hall">
+      <data key="d0">Swarthmoor Hall</data>
+      <data key="d1">Place</data>
+      <data key="d2">Meeting House</data>
+      <data key="d3"></data>
+      <data key="d4">Ulverston, Lancashire, England</data>
+      <data key="d5"></data>
+      <data key="d6"></data>
+      <data key="d7">QUAKER</data>
+      <data key="d8"></data>
+      <data key="d9">Lancashire</data>
+      <data key="d10">https://en.wikipedia.org/wiki/Swarthmoor_Hall</data>
+      <data key="d11">https://www.quaker.org.uk/</data>
+      <data key="d12">lightgray</data>
+      <data key="d13">2</data>
+      <data key="d14">diamond</data>
+      <data key="d15">Swarthmoor Hall\nQUAKER Meeting House</data>
+    </node>
+    
+    <!-- Example: Event -->
+    <node id="example_event">
+      <data key="d0">[Event Name]</data>
+      <data key="d1">Event</data>
+      <data key="d2">[Event Type]</data>
+      <data key="d3">[Event Date]</data>
+      <data key="d4">[Event Location]</data>
+      <data key="d5"></data>
+      <data key="d6"></data>
+      <data key="d7">QUAKER</data>
+      <data key="d8"></data>
+      <data key="d9"></data>
+      <data key="d10">[Wikipedia URL if available]</data>
+      <data key="d11">[Quaker.org.uk URL if available]</data>
+      <data key="d12">orange</data>
+      <data key="d13">2</data>
+      <data key="d14">diamond</data>
+      <data key="d15">[Event Name]\n[Date]</data>
+    </node>
+    
+    <!-- Example Relationships -->
+    
+    <!-- George Fox to Margaret Fell (Marriage) -->
+    <edge id="fox_fell_marriage" source="george_fox" target="margaret_fell">
+      <data key="e0">spouse</data>
+      <data key="e1">1669</data>
+      <data key="e2"></data>
+      <data key="e3">Married in 1669</data>
+      <data key="e4">https://en.wikipedia.org/wiki/George_Fox</data>
+      <data key="e5">married</data>
+    </edge>
+    
+    <!-- George Fox to Example Member (Mentor) -->
+    <edge id="fox_member_mentor" source="george_fox" target="example_member">
+      <data key="e0">mentor</data>
+      <data key="e1">[Date]</data>
+      <data key="e2"></data>
+      <data key="e3">George Fox mentored this member</data>
+      <data key="e4">[Source URL]</data>
+      <data key="e5">mentor</data>
+    </edge>
+    
+    <!-- Example Member to Swarthmoor Hall (Associated With) -->
+    <edge id="member_swarthmoor" source="example_member" target="swarthmoor_hall">
+      <data key="e0">associated_with</data>
+      <data key="e1">[Date]</data>
+      <data key="e2"></data>
+      <data key="e3">Member visited or was associated with Swarthmoor Hall</data>
+      <data key="e4">[Source URL]</data>
+      <data key="e5">visited</data>
+    </edge>
+    
+    <!-- Example Member to Event (Participated In) -->
+    <edge id="member_event" source="example_member" target="example_event">
+      <data key="e0">participated_in</data>
+      <data key="e1">[Event Date]</data>
+      <data key="e2"></data>
+      <data key="e3">Member participated in this event</data>
+      <data key="e4">[Source URL]</data>
+      <data key="e5">participated</data>
+    </edge>
+    
+  </graph>
+</graphml>

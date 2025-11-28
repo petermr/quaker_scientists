@@ -1,0 +1,65 @@
+# Graphviz Metadata for Valiant Sixty Knowledge Graph
+# This metadata can be used to generate Graphviz DOT files from GraphML
+
+## Graph Attributes
+rankdir=TB
+node [shape=box, style=filled, fontname="Arial", fontsize=9]
+edge [fontname="Arial", fontsize=7]
+
+## Color Scheme (Following Existing Knowledge Graph Patterns)
+
+### Central Figures (Gold)
+- George Fox: fillcolor=gold, penwidth=3
+- Margaret Fell: fillcolor=gold, penwidth=3
+
+### Family Members (Light Pink)
+- Family members: fillcolor=lightpink, penwidth=2 (if QUAKER)
+- Non-Quaker family: fillcolor=lightpink, penwidth=1
+
+### Quaker Leaders and Mentors (Light Cyan)
+- Early Quaker leaders: fillcolor=lightcyan, penwidth=2
+- Mentors: fillcolor=lightcyan, penwidth=2
+
+### Valiant Sixty Members (Light Steel Blue)
+- All Valiant Sixty members: fillcolor=lightsteelblue, penwidth=2
+- Label format: "[Name]\n([Birth-Death])\nQUAKER Missionary"
+
+### Non-Quaker Contemporaries (Light Coral)
+- Non-Quaker contemporaries: fillcolor=lightcoral, penwidth=1
+
+### Places and Organizations (Light Gray, Diamond Shape)
+- Meeting Houses: fillcolor=lightgray, shape=diamond, penwidth=2 (if QUAKER)
+- Towns/Regions: fillcolor=lightgray, shape=diamond, penwidth=1
+- Non-Quaker places: fillcolor=lightgray, shape=diamond, penwidth=1
+
+### Events (Orange, Diamond Shape)
+- Key events: fillcolor=orange, shape=diamond, penwidth=2
+- Imprisonments: fillcolor=orange, shape=diamond, penwidth=2
+- Ministry journeys: fillcolor=orange, shape=diamond, penwidth=2
+
+### Writings (Plum, Diamond Shape)
+- Publications: fillcolor=plum, shape=diamond, penwidth=2
+- Letters/Journals: fillcolor=plum, shape=diamond, penwidth=2
+
+## Node Shape Mapping
+- Person nodes: shape=box
+- Place/Organization nodes: shape=diamond
+- Event nodes: shape=diamond
+- Writing nodes: shape=diamond
+
+## Edge Label Mapping
+- Family relationships: label="father", "mother", "spouse", "sibling", "child"
+- Quaker relationships: label="mentor", "friend", "colleague", "traveling_companion"
+- Organizational: label="member", "founder", "clerk", "visited"
+- Historical: label="converted_by", "imprisoned_with", "corresponded_with"
+- Location: label="born_in", "died_in", "ministered_in", "imprisoned_in"
+
+## Hyperlink Support
+- All nodes with wikipedia_url or quaker_org_url should include URL attribute in Graphviz
+- Format: URL="[url]" in node definition
+
+## Legend Structure
+- Include subgraph cluster_legend with all color codes
+- Show QUAKER vs non-Quaker distinction with border thickness
+- Include shape explanations
+
