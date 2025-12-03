@@ -89,6 +89,126 @@
       <data key="d15">Margaret Fell\n(1614-1702)\nQUAKER Leader</data>
     </node>
     
+    <!-- Edward Burrough (Valiant Sixty Member) -->
+    <node id="edward_burrough">
+      <data key="d0">Edward Burrough</data>
+      <data key="d1">Person</data>
+      <data key="d2">Valiant Sixty Member</data>
+      <data key="d3">1634</data>
+      <data key="d4">Underbarrow, Westmorland, England</data>
+      <data key="d5">1662</data>
+      <data key="d6">Newgate Prison, London, England</data>
+      <data key="d7">QUAKER</data>
+      <data key="d8">Preacher and Apologist</data>
+      <data key="d9">Throughout Britain</data>
+      <data key="d10">https://en.wikipedia.org/wiki/Edward_Burrough</data>
+      <data key="d11">https://www.quaker.org.uk/</data>
+      <data key="d12">lightsteelblue</data>
+      <data key="d13">2</data>
+      <data key="d14">box</data>
+      <data key="d15">Edward Burrough\n(1634-1662)\nQUAKER Preacher</data>
+    </node>
+    
+    <!-- Mary Fisher (Valiant Sixty Member) -->
+    <node id="mary_fisher">
+      <data key="d0">Mary Fisher</data>
+      <data key="d1">Person</data>
+      <data key="d2">Valiant Sixty Member</data>
+      <data key="d3">1623</data>
+      <data key="d4">Yorkshire, England</data>
+      <data key="d5">1698</data>
+      <data key="d6">Charleston, South Carolina, America</data>
+      <data key="d7">QUAKER</data>
+      <data key="d8">Missionary</data>
+      <data key="d9">Turkey, New World, Throughout Britain</data>
+      <data key="d10">https://en.wikipedia.org/wiki/Mary_Fisher_(Quaker)</data>
+      <data key="d11">https://www.quaker.org.uk/</data>
+      <data key="d12">lightsteelblue</data>
+      <data key="d13">2</data>
+      <data key="d14">box</data>
+      <data key="d15">Mary Fisher\n(c.1623-1698)\nQUAKER Missionary</data>
+    </node>
+    
+    <!-- Francis Howgill (Valiant Sixty Member) -->
+    <node id="francis_howgill">
+      <data key="d0">Francis Howgill</data>
+      <data key="d1">Person</data>
+      <data key="d2">Valiant Sixty Member</data>
+      <data key="d3">1618</data>
+      <data key="d4">Grayrigg, Westmorland, England</data>
+      <data key="d5">1669</data>
+      <data key="d6">Appleby Gaol, Westmorland, England</data>
+      <data key="d7">QUAKER</data>
+      <data key="d8">Preacher and Writer</data>
+      <data key="d9">Throughout Britain</data>
+      <data key="d10">https://en.wikipedia.org/wiki/Francis_Howgill</data>
+      <data key="d11">https://www.quaker.org.uk/</data>
+      <data key="d12">lightsteelblue</data>
+      <data key="d13">2</data>
+      <data key="d14">box</data>
+      <data key="d15">Francis Howgill\n(1618-1669)\nQUAKER Preacher</data>
+    </node>
+    
+    <!-- James Nayler (Valiant Sixty Member) -->
+    <node id="james_nayler">
+      <data key="d0">James Nayler</data>
+      <data key="d1">Person</data>
+      <data key="d2">Valiant Sixty Member</data>
+      <data key="d3">1618</data>
+      <data key="d4">Ardsley, Yorkshire, England</data>
+      <data key="d5">1660</data>
+      <data key="d6">King's Ripton, Huntingdonshire, England</data>
+      <data key="d7">QUAKER</data>
+      <data key="d8">Preacher and Writer</data>
+      <data key="d9">Throughout Britain</data>
+      <data key="d10">https://en.wikipedia.org/wiki/James_Nayler</data>
+      <data key="d11">https://www.quaker.org.uk/</data>
+      <data key="d12">lightsteelblue</data>
+      <data key="d13">2</data>
+      <data key="d14">box</data>
+      <data key="d15">James Nayler\n(1618-1660)\nQUAKER Preacher</data>
+    </node>
+    
+    <!-- George Whitehead (Valiant Sixty Member) -->
+    <node id="george_whitehead">
+      <data key="d0">George Whitehead</data>
+      <data key="d1">Person</data>
+      <data key="d2">Valiant Sixty Member</data>
+      <data key="d3">1636</data>
+      <data key="d4">Orton, Westmorland, England</data>
+      <data key="d5">1723</data>
+      <data key="d6">London, England</data>
+      <data key="d7">QUAKER</data>
+      <data key="d8">Preacher and Leader</data>
+      <data key="d9">Throughout Britain</data>
+      <data key="d10">https://en.wikipedia.org/wiki/George_Whitehead</data>
+      <data key="d11">https://www.quaker.org.uk/</data>
+      <data key="d12">lightsteelblue</data>
+      <data key="d13">2</data>
+      <data key="d14">box</data>
+      <data key="d15">George Whitehead\n(1636-1723)\nQUAKER Preacher</data>
+    </node>
+    
+    <!-- Elizabeth Hooton (Valiant Sixty Member) -->
+    <node id="elizabeth_hooton">
+      <data key="d0">Elizabeth Hooton</data>
+      <data key="d1">Person</data>
+      <data key="d2">Valiant Sixty Member</data>
+      <data key="d3">1600</data>
+      <data key="d4">Nottinghamshire, England</data>
+      <data key="d5">1672</data>
+      <data key="d6">Jamaica, West Indies</data>
+      <data key="d7">QUAKER</data>
+      <data key="d8">Preacher and Missionary</data>
+      <data key="d9">Throughout Britain and America</data>
+      <data key="d10">https://en.wikipedia.org/wiki/Elizabeth_Hooton</data>
+      <data key="d11">https://www.quaker.org.uk/</data>
+      <data key="d12">lightsteelblue</data>
+      <data key="d13">2</data>
+      <data key="d14">box</data>
+      <data key="d15">Elizabeth Hooton\n(c.1600-1672)\nQUAKER Preacher</data>
+    </node>
+    
     <!-- Example: Valiant Sixty Member (Template) -->
     <node id="example_member">
       <data key="d0">[Member Name]</data>
@@ -161,14 +281,124 @@
       <data key="e5">married</data>
     </edge>
     
-    <!-- George Fox to Example Member (Mentor) -->
-    <edge id="fox_member_mentor" source="george_fox" target="example_member">
+    <!-- George Fox to Edward Burrough (Mentor) -->
+    <edge id="fox_burrough_mentor" source="george_fox" target="edward_burrough">
       <data key="e0">mentor</data>
-      <data key="e1">[Date]</data>
+      <data key="e1">1652</data>
       <data key="e2"></data>
-      <data key="e3">George Fox mentored this member</data>
-      <data key="e4">[Source URL]</data>
+      <data key="e3">George Fox converted and mentored Edward Burrough</data>
+      <data key="e4">https://en.wikipedia.org/wiki/Edward_Burrough</data>
       <data key="e5">mentor</data>
+    </edge>
+    
+    <!-- George Fox to Mary Fisher (Mentor) -->
+    <edge id="fox_fisher_mentor" source="george_fox" target="mary_fisher">
+      <data key="e0">mentor</data>
+      <data key="e1">1652</data>
+      <data key="e2"></data>
+      <data key="e3">George Fox mentored Mary Fisher in early Quakerism</data>
+      <data key="e4">https://en.wikipedia.org/wiki/Mary_Fisher_(Quaker)</data>
+      <data key="e5">mentor</data>
+    </edge>
+    
+    <!-- George Fox to Francis Howgill (Mentor) -->
+    <edge id="fox_howgill_mentor" source="george_fox" target="francis_howgill">
+      <data key="e0">mentor</data>
+      <data key="e1">1652</data>
+      <data key="e2"></data>
+      <data key="e3">George Fox converted Francis Howgill from Anglicanism</data>
+      <data key="e4">https://en.wikipedia.org/wiki/Francis_Howgill</data>
+      <data key="e5">mentor</data>
+    </edge>
+    
+    <!-- George Fox to James Nayler (Mentor) -->
+    <edge id="fox_nayler_mentor" source="george_fox" target="james_nayler">
+      <data key="e0">mentor</data>
+      <data key="e1">1651</data>
+      <data key="e2"></data>
+      <data key="e3">George Fox converted James Nayler to Quakerism</data>
+      <data key="e4">https://en.wikipedia.org/wiki/James_Nayler</data>
+      <data key="e5">mentor</data>
+    </edge>
+    
+    <!-- George Fox to George Whitehead (Mentor) -->
+    <edge id="fox_whitehead_mentor" source="george_fox" target="george_whitehead">
+      <data key="e0">mentor</data>
+      <data key="e1">1652</data>
+      <data key="e2"></data>
+      <data key="e3">George Fox mentored teenage George Whitehead</data>
+      <data key="e4">https://en.wikipedia.org/wiki/George_Whitehead</data>
+      <data key="e5">mentor</data>
+    </edge>
+    
+    <!-- George Fox to Elizabeth Hooton (Mentor) -->
+    <edge id="fox_hooton_mentor" source="george_fox" target="elizabeth_hooton">
+      <data key="e0">mentor</data>
+      <data key="e1">1647</data>
+      <data key="e2"></data>
+      <data key="e3">Elizabeth Hooton was one of the first Quakers converted by George Fox</data>
+      <data key="e4">https://en.wikipedia.org/wiki/Elizabeth_Hooton</data>
+      <data key="e5">mentor</data>
+    </edge>
+    
+    <!-- Margaret Fell to Swarthmoor Hall (Owner/Host) -->
+    <edge id="fell_swarthmoor_host" source="margaret_fell" target="swarthmoor_hall">
+      <data key="e0">owner</data>
+      <data key="e1">1652</data>
+      <data key="e2">1702</data>
+      <data key="e3">Margaret Fell opened Swarthmoor Hall for Quaker meetings</data>
+      <data key="e4">https://en.wikipedia.org/wiki/Margaret_Fell</data>
+      <data key="e5">hosted</data>
+    </edge>
+    
+    <!-- Edward Burrough to Swarthmoor Hall (Visited) -->
+    <edge id="burrough_swarthmoor" source="edward_burrough" target="swarthmoor_hall">
+      <data key="e0">visited</data>
+      <data key="e1">1652</data>
+      <data key="e2">1662</data>
+      <data key="e3">Edward Burrough visited Swarthmoor Hall for Quaker meetings</data>
+      <data key="e4">https://en.wikipedia.org/wiki/Edward_Burrough</data>
+      <data key="e5">visited</data>
+    </edge>
+    
+    <!-- Francis Howgill to Swarthmoor Hall (Visited) -->
+    <edge id="howgill_swarthmoor" source="francis_howgill" target="swarthmoor_hall">
+      <data key="e0">visited</data>
+      <data key="e1">1652</data>
+      <data key="e2">1669</data>
+      <data key="e3">Francis Howgill visited Swarthmoor Hall for Quaker meetings</data>
+      <data key="e4">https://en.wikipedia.org/wiki/Francis_Howgill</data>
+      <data key="e5">visited</data>
+    </edge>
+    
+    <!-- James Nayler to Swarthmoor Hall (Visited) -->
+    <edge id="nayler_swarthmoor" source="james_nayler" target="swarthmoor_hall">
+      <data key="e0">visited</data>
+      <data key="e1">1651</data>
+      <data key="e2">1660</data>
+      <data key="e3">James Nayler visited Swarthmoor Hall for Quaker meetings</data>
+      <data key="e4">https://en.wikipedia.org/wiki/James_Nayler</data>
+      <data key="e5">visited</data>
+    </edge>
+    
+    <!-- George Whitehead to Swarthmoor Hall (Visited) -->
+    <edge id="whitehead_swarthmoor" source="george_whitehead" target="swarthmoor_hall">
+      <data key="e0">visited</data>
+      <data key="e1">1652</data>
+      <data key="e2">1723</data>
+      <data key="e3">George Whitehead visited Swarthmoor Hall for Quaker meetings</data>
+      <data key="e4">https://en.wikipedia.org/wiki/George_Whitehead</data>
+      <data key="e5">visited</data>
+    </edge>
+    
+    <!-- Edward Burrough to Francis Howgill (Colleague) -->
+    <edge id="burrough_howgill_colleague" source="edward_burrough" target="francis_howgill">
+      <data key="e0">colleague</data>
+      <data key="e1">1652</data>
+      <data key="e2">1662</data>
+      <data key="e3">Edward Burrough and Francis Howgill worked together as Quaker preachers</data>
+      <data key="e4">https://en.wikipedia.org/wiki/Edward_Burrough</data>
+      <data key="e5">colleague</data>
     </edge>
     
     <!-- Example Member to Swarthmoor Hall (Associated With) -->

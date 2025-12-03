@@ -6,12 +6,29 @@ digraph ValiantSixty {
 
     "george_fox" [fillcolor=gold, penwidth=3, shape=box, URL="https://en.wikipedia.org/wiki/George_Fox", label="George Fox\n(1624-1691)\nQUAKER Founder", fontweight=bold];
     "margaret_fell" [fillcolor=gold, penwidth=3, shape=box, URL="https://en.wikipedia.org/wiki/Margaret_Fell", label="Margaret Fell\n(1614-1702)\nQUAKER Leader", fontweight=bold];
+    "edward_burrough" [fillcolor=lightsteelblue, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Edward_Burrough", label="Edward Burrough\n(1634-1662)\nQUAKER Preacher", fontweight=bold];
+    "mary_fisher" [fillcolor=lightsteelblue, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Mary_Fisher_(Quaker)", label="Mary Fisher\n(c.1623-1698)\nQUAKER Missionary", fontweight=bold];
+    "francis_howgill" [fillcolor=lightsteelblue, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Francis_Howgill", label="Francis Howgill\n(1618-1669)\nQUAKER Preacher", fontweight=bold];
+    "james_nayler" [fillcolor=lightsteelblue, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/James_Nayler", label="James Nayler\n(1618-1660)\nQUAKER Preacher", fontweight=bold];
+    "george_whitehead" [fillcolor=lightsteelblue, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/George_Whitehead", label="George Whitehead\n(1636-1723)\nQUAKER Preacher", fontweight=bold];
+    "elizabeth_hooton" [fillcolor=lightsteelblue, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Elizabeth_Hooton", label="Elizabeth Hooton\n(c.1600-1672)\nQUAKER Preacher", fontweight=bold];
     "example_member" [fillcolor=lightsteelblue, penwidth=2, shape=box, URL="[Wikipedia URL]", label="[Member Name]\n([Birth-Death])\nQUAKER Missionary", fontweight=bold];
     "swarthmoor_hall" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Swarthmoor_Hall", label="Swarthmoor Hall\nQUAKER Meeting House", fontweight=bold];
     "example_event" [fillcolor=orange, penwidth=2, shape=diamond, URL="[Wikipedia URL if available]", label="[Event Name]\n[Date]", fontweight=bold];
 
     "george_fox" -> "margaret_fell" [label="married", tooltip="Married in 1669"];
-    "george_fox" -> "example_member" [label="mentor", tooltip="George Fox mentored this member"];
+    "george_fox" -> "edward_burrough" [label="mentor", tooltip="George Fox converted and mentored Edward Burrough"];
+    "george_fox" -> "mary_fisher" [label="mentor", tooltip="George Fox mentored Mary Fisher in early Quakerism"];
+    "george_fox" -> "francis_howgill" [label="mentor", tooltip="George Fox converted Francis Howgill from Anglicanism"];
+    "george_fox" -> "james_nayler" [label="mentor", tooltip="George Fox converted James Nayler to Quakerism"];
+    "george_fox" -> "george_whitehead" [label="mentor", tooltip="George Fox mentored teenage George Whitehead"];
+    "george_fox" -> "elizabeth_hooton" [label="mentor", tooltip="Elizabeth Hooton was one of the first Quakers converted by George Fox"];
+    "margaret_fell" -> "swarthmoor_hall" [label="hosted", tooltip="Margaret Fell opened Swarthmoor Hall for Quaker meetings"];
+    "edward_burrough" -> "swarthmoor_hall" [label="visited", tooltip="Edward Burrough visited Swarthmoor Hall for Quaker meetings"];
+    "edward_burrough" -> "francis_howgill" [label="colleague", tooltip="Edward Burrough and Francis Howgill worked together as Quaker preachers"];
+    "francis_howgill" -> "swarthmoor_hall" [label="visited", tooltip="Francis Howgill visited Swarthmoor Hall for Quaker meetings"];
+    "james_nayler" -> "swarthmoor_hall" [label="visited", tooltip="James Nayler visited Swarthmoor Hall for Quaker meetings"];
+    "george_whitehead" -> "swarthmoor_hall" [label="visited", tooltip="George Whitehead visited Swarthmoor Hall for Quaker meetings"];
     "example_member" -> "swarthmoor_hall" [label="visited", tooltip="Member visited or was associated with Swarthmoor Hall"];
     "example_member" -> "example_event" [label="participated", tooltip="Member participated in this event"];
 
