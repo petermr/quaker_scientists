@@ -1,0 +1,223 @@
+digraph QuakerChocolateDynasties {
+    // Graph settings
+    rankdir=TB;
+    node [shape=box, style=filled, fontname="Arial", fontsize=9];
+    edge [fontname="Arial", fontsize=7];
+
+    // ============================================
+    // PHASE 1: BUSINESSES (12 entries)
+    // ============================================
+    
+    "Cadbury Brothers Ltd" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Cadbury", label="Cadbury Brothers Ltd\n(founded 1824)\nQUAKER Chocolate Company", fontweight=bold];
+    "Bournville Factory" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Bournville", label="Bournville Factory\n(established 1879)\nQUAKER Factory", fontweight=bold];
+    "Bournville Village" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Bournville", label="Bournville Village\n(established 1893)\nQUAKER Model Village", fontweight=bold];
+    "J.S. Fry & Sons" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/J._S._Fry_%26_Sons", label="J.S. Fry & Sons\n(founded 1759)\nQUAKER Chocolate Company", fontweight=bold];
+    "Rowntree & Co" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Rowntree%27s", label="Rowntree & Co\n(founded 1862)\nQUAKER Chocolate Company", fontweight=bold];
+    "Rowntree Cocoa Works" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Rowntree%27s", label="Rowntree's Cocoa Works\n(York)\nQUAKER Factory", fontweight=bold];
+    "New Earswick Village" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/New_Earswick", label="New Earswick Village\n(established 1901)\nQUAKER Model Village", fontweight=bold];
+    "Cadbury Dairy Milk" [fillcolor=orange, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Cadbury_Dairy_Milk", label="Cadbury Dairy Milk\n(introduced 1905)\nProduct Innovation", fontweight=bold];
+    "Kit Kat" [fillcolor=orange, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Kit_Kat", label="Kit Kat\n(introduced 1935)\nProduct Innovation", fontweight=bold];
+    "First Solid Chocolate Bar" [fillcolor=orange, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/J._S._Fry_%26_Sons", label="First Solid Chocolate Bar\n(1847)\nProduct Innovation", fontweight=bold];
+    "Cadbury Schweppes" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Cadbury_Schweppes", label="Cadbury Schweppes\n(merger 1969)\nBusiness Expansion", fontweight=bold];
+    "Fry's Chocolate Cream" [fillcolor=orange, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Fry%27s_Chocolate_Cream", label="Fry's Chocolate Cream\n(introduced 1866)\nProduct Innovation", fontweight=bold];
+
+    // ============================================
+    // PHASE 2: FAMILIES (18 entries)
+    // ============================================
+    
+    // Cadbury Family Founders (Gold - central figures)
+    "John Cadbury" [fillcolor=gold, penwidth=3, shape=box, URL="https://en.wikipedia.org/wiki/John_Cadbury", label="John Cadbury\n(1801-1889)\nQUAKER Founder", fontweight=bold];
+    
+    // Cadbury Family Members (Light Pink)
+    "Richard Cadbury" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Richard_Cadbury", label="Richard Cadbury\n(1835-1899)\nQUAKER Businessman", fontweight=bold];
+    "George Cadbury" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/George_Cadbury", label="George Cadbury\n(1839-1922)\nQUAKER Businessman", fontweight=bold];
+    "Edward Cadbury" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Edward_Cadbury", label="Edward Cadbury\n(1873-1948)\nQUAKER Businessman", fontweight=bold];
+    "Laurence Cadbury" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Laurence_Cadbury", label="Laurence Cadbury\n(1889-1982)\nQUAKER Businessman", fontweight=bold];
+    "Barrow Cadbury" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Barrow_Cadbury", label="Barrow Cadbury\n(1868-1958)\nQUAKER Philanthropist", fontweight=bold];
+    "Dominic Cadbury" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Dominic_Cadbury", label="Dominic Cadbury\n(b. 1938)\nQUAKER Businessman", fontweight=bold];
+    
+    // Rowntree Family Founders (Gold - central figures)
+    "Henry Isaac Rowntree" [fillcolor=gold, penwidth=3, shape=box, URL="https://en.wikipedia.org/wiki/Henry_Isaac_Rowntree", label="Henry Isaac Rowntree\n(1838-1883)\nQUAKER Founder", fontweight=bold];
+    "Joseph Rowntree" [fillcolor=gold, penwidth=3, shape=box, URL="https://en.wikipedia.org/wiki/Joseph_Rowntree", label="Joseph Rowntree\n(1836-1925)\nQUAKER Founder", fontweight=bold];
+    
+    // Rowntree Family Members (Light Pink)
+    "Seebohm Rowntree" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Benjamin_Seebohm_Rowntree", label="Seebohm Rowntree\n(1871-1954)\nQUAKER Social Reformer", fontweight=bold];
+    "Arnold Rowntree" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Arnold_Rowntree", label="Arnold Rowntree\n(1872-1951)\nQUAKER Businessman", fontweight=bold];
+    "John Wilhelm Rowntree" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/John_Wilhelm_Rowntree", label="John Wilhelm Rowntree\n(1868-1905)\nQUAKER Minister", fontweight=bold];
+    
+    // Fry Family Founders (Gold - central figures)
+    "Joseph Fry" [fillcolor=gold, penwidth=3, shape=box, URL="https://en.wikipedia.org/wiki/Joseph_Fry_(chocolate_manufacturer)", label="Joseph Fry\n(1728-1787)\nQUAKER Founder", fontweight=bold];
+    
+    // Fry Family Members (Light Pink)
+    "Joseph Storrs Fry II" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Joseph_Storrs_Fry_II", label="Joseph Storrs Fry II\n(1826-1913)\nQUAKER Businessman", fontweight=bold];
+    "Elizabeth Fry" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Elizabeth_Fry", label="Elizabeth Fry\n(1780-1845)\nQUAKER Prison Reformer", fontweight=bold];
+    "Francis Fry" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Francis_Fry", label="Francis Fry\n(1803-1886)\nQUAKER Businessman", fontweight=bold];
+    "Joseph Fry III" [fillcolor=lightpink, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Joseph_Fry", label="Joseph Fry III\n(1795-1875)\nQUAKER Businessman", fontweight=bold];
+
+    // ============================================
+    // PHASE 3: CONTACTS (10 entries)
+    // ============================================
+    
+    "Barclay Family" [fillcolor=lightcyan, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Barclays", label="Barclay Family\nQUAKER Bankers", fontweight=bold];
+    "Gurney Family" [fillcolor=lightcyan, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Gurney_family", label="Gurney Family\nQUAKER Bankers", fontweight=bold];
+    "Seebohm Family" [fillcolor=lightcyan, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Seebohm", label="Seebohm Family\nQUAKER Family", fontweight=bold];
+    "Tuke Family" [fillcolor=lightcyan, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/Tuke_family", label="Tuke Family\nQUAKER Reformers", fontweight=bold];
+    "Quaker Business Network" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Quakers", label="Quaker Business Network\nQUAKER Network", fontweight=bold];
+    "Adult School Movement" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Adult_school", label="Adult School Movement\nQUAKER Education", fontweight=bold];
+    "Quaker Meeting Houses" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Quaker_meeting_house", label="Quaker Meeting Houses\nQUAKER Religious", fontweight=bold];
+    "William Allen" [fillcolor=lightcyan, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/William_Allen_(English_Quaker)", label="William Allen\n(1770-1843)\nQUAKER Scientist", fontweight=bold];
+    "George Fox" [fillcolor=lightcyan, penwidth=2, shape=box, URL="https://en.wikipedia.org/wiki/George_Fox", label="George Fox\n(1624-1691)\nQUAKER Founder", fontweight=bold];
+    "Quaker Industrial Welfare" [fillcolor=lightgray, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Quakers", label="Quaker Industrial Welfare\nQUAKER Movement", fontweight=bold];
+
+    // ============================================
+    // PHASE 4: PHILANTHROPIC WORK (10 entries)
+    // ============================================
+    
+    "Bournville Village Trust" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Bournville_Village_Trust", label="Bournville Village Trust\n(established 1900)\nQUAKER Trust", fontweight=bold];
+    "Cadbury Pension Scheme" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Cadbury", label="Cadbury Pension Scheme\nQUAKER Welfare", fontweight=bold];
+    "Cadbury Medical Services" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Cadbury", label="Cadbury Medical Services\nQUAKER Welfare", fontweight=bold];
+    "Cadbury Educational Programs" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Cadbury", label="Cadbury Educational Programs\nQUAKER Education", fontweight=bold];
+    "Joseph Rowntree Foundation" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Joseph_Rowntree_Foundation", label="Joseph Rowntree Foundation\n(established 1904)\nQUAKER Foundation", fontweight=bold];
+    "Joseph Rowntree Charitable Trust" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Joseph_Rowntree_Charitable_Trust", label="Joseph Rowntree Charitable Trust\nQUAKER Trust", fontweight=bold];
+    "Joseph Rowntree Reform Trust" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Joseph_Rowntree_Reform_Trust", label="Joseph Rowntree Reform Trust\nQUAKER Trust", fontweight=bold];
+    "Seebohm Rowntree Poverty Studies" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Benjamin_Seebohm_Rowntree", label="Seebohm Rowntree\nPoverty Studies\n(1901)", fontweight=bold];
+    "Elizabeth Fry Prison Reform" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Elizabeth_Fry", label="Elizabeth Fry\nPrison Reform\nQUAKER Reform", fontweight=bold];
+    "Quaker Social Reform Movement" [fillcolor=plum, penwidth=2, shape=diamond, URL="https://en.wikipedia.org/wiki/Quakers", label="Quaker Social Reform\nMovement\nQUAKER Movement", fontweight=bold];
+
+    // ============================================
+    // FAMILY RELATIONSHIPS
+    // ============================================
+    
+    // Cadbury Family Tree
+    "John Cadbury" -> "Richard Cadbury" [label="father"];
+    "John Cadbury" -> "George Cadbury" [label="father"];
+    "George Cadbury" -> "Edward Cadbury" [label="father"];
+    "George Cadbury" -> "Laurence Cadbury" [label="father"];
+    "Richard Cadbury" -> "Barrow Cadbury" [label="father"];
+    "Laurence Cadbury" -> "Dominic Cadbury" [label="father"];
+    
+    // Rowntree Family Tree
+    "Henry Isaac Rowntree" -> "Joseph Rowntree" [label="brother"];
+    "Joseph Rowntree" -> "Seebohm Rowntree" [label="father"];
+    "Joseph Rowntree" -> "Arnold Rowntree" [label="father"];
+    "Joseph Rowntree" -> "John Wilhelm Rowntree" [label="father"];
+    
+    // Fry Family Tree
+    "Joseph Fry" -> "Joseph Storrs Fry II" [label="ancestor"];
+    "Joseph Storrs Fry II" -> "Francis Fry" [label="father"];
+    "Joseph Storrs Fry II" -> "Joseph Fry III" [label="father"];
+
+    // ============================================
+    // BUSINESS RELATIONSHIPS
+    // ============================================
+    
+    // Cadbury Business
+    "John Cadbury" -> "Cadbury Brothers Ltd" [label="founded"];
+    "Richard Cadbury" -> "Cadbury Brothers Ltd" [label="managed"];
+    "George Cadbury" -> "Cadbury Brothers Ltd" [label="managed"];
+    "George Cadbury" -> "Bournville Factory" [label="built"];
+    "George Cadbury" -> "Bournville Village" [label="established"];
+    "Edward Cadbury" -> "Cadbury Brothers Ltd" [label="managed"];
+    "Laurence Cadbury" -> "Cadbury Brothers Ltd" [label="managed"];
+    "Dominic Cadbury" -> "Cadbury Brothers Ltd" [label="managed"];
+    "Cadbury Brothers Ltd" -> "Cadbury Dairy Milk" [label="produced"];
+    "Cadbury Brothers Ltd" -> "Cadbury Schweppes" [label="merged"];
+    
+    // Rowntree Business
+    "Henry Isaac Rowntree" -> "Rowntree & Co" [label="founded"];
+    "Joseph Rowntree" -> "Rowntree & Co" [label="managed"];
+    "Joseph Rowntree" -> "New Earswick Village" [label="established"];
+    "Rowntree & Co" -> "Rowntree Cocoa Works" [label="operated"];
+    "Rowntree & Co" -> "Kit Kat" [label="produced"];
+    
+    // Fry Business
+    "Joseph Fry" -> "J.S. Fry & Sons" [label="founded"];
+    "Joseph Storrs Fry II" -> "J.S. Fry & Sons" [label="managed"];
+    "Francis Fry" -> "J.S. Fry & Sons" [label="managed"];
+    "Joseph Fry III" -> "J.S. Fry & Sons" [label="managed"];
+    "J.S. Fry & Sons" -> "First Solid Chocolate Bar" [label="produced"];
+    "J.S. Fry & Sons" -> "Fry's Chocolate Cream" [label="produced"];
+
+    // ============================================
+    // PHILANTHROPIC RELATIONSHIPS
+    // ============================================
+    
+    // Cadbury Philanthropy
+    "George Cadbury" -> "Bournville Village Trust" [label="established"];
+    "Bournville Village" -> "Bournville Village Trust" [label="managed_by"];
+    "George Cadbury" -> "Cadbury Pension Scheme" [label="established"];
+    "George Cadbury" -> "Cadbury Medical Services" [label="established"];
+    "George Cadbury" -> "Cadbury Educational Programs" [label="supported"];
+    "Richard Cadbury" -> "Cadbury Educational Programs" [label="supported"];
+    "Barrow Cadbury" -> "Bournville Village Trust" [label="supported"];
+    
+    // Rowntree Philanthropy
+    "Joseph Rowntree" -> "Joseph Rowntree Foundation" [label="established"];
+    "Joseph Rowntree" -> "Joseph Rowntree Charitable Trust" [label="established"];
+    "Joseph Rowntree" -> "Joseph Rowntree Reform Trust" [label="established"];
+    "Seebohm Rowntree" -> "Seebohm Rowntree Poverty Studies" [label="authored"];
+    "New Earswick Village" -> "Joseph Rowntree Foundation" [label="supported_by"];
+    
+    // Fry Philanthropy
+    "Elizabeth Fry" -> "Elizabeth Fry Prison Reform" [label="led"];
+    
+    // Shared Philanthropy
+    "George Cadbury" -> "Quaker Social Reform Movement" [label="supported"];
+    "Joseph Rowntree" -> "Quaker Social Reform Movement" [label="supported"];
+    "Elizabeth Fry" -> "Quaker Social Reform Movement" [label="supported"];
+
+    // ============================================
+    // CONTACT RELATIONSHIPS
+    // ============================================
+    
+    // Inter-family connections
+    "Joseph Fry" -> "Barclay Family" [label="connected"];
+    "Joseph Storrs Fry II" -> "Gurney Family" [label="connected"];
+    "Seebohm Rowntree" -> "Seebohm Family" [label="related"];
+    "Joseph Rowntree" -> "Tuke Family" [label="connected"];
+    
+    // Business network connections
+    "John Cadbury" -> "Quaker Business Network" [label="member"];
+    "Joseph Rowntree" -> "Quaker Business Network" [label="member"];
+    "Joseph Fry" -> "Quaker Business Network" [label="member"];
+    
+    // Educational connections
+    "George Cadbury" -> "Adult School Movement" [label="supported"];
+    "Richard Cadbury" -> "Adult School Movement" [label="supported"];
+    
+    // Religious connections
+    "John Cadbury" -> "Quaker Meeting Houses" [label="attended"];
+    "Joseph Rowntree" -> "Quaker Meeting Houses" [label="attended"];
+    "Joseph Fry" -> "Quaker Meeting Houses" [label="attended"];
+    
+    // Historical connections
+    "John Cadbury" -> "William Allen" [label="contemporary"];
+    "Joseph Fry" -> "William Allen" [label="contemporary"];
+    "John Cadbury" -> "George Fox" [label="influenced_by"];
+    "Joseph Rowntree" -> "George Fox" [label="influenced_by"];
+    "Joseph Fry" -> "George Fox" [label="influenced_by"];
+    
+    // Industrial welfare connections
+    "George Cadbury" -> "Quaker Industrial Welfare" [label="pioneered"];
+    "Joseph Rowntree" -> "Quaker Industrial Welfare" [label="pioneered"];
+
+    // ============================================
+    // LEGEND
+    // ============================================
+    
+    subgraph cluster_legend {
+        label="LEGEND - Quaker Chocolate Dynasties";
+        style=filled;
+        fillcolor=white;
+        fontsize=12;
+        fontweight=bold;
+
+        "Founders\n(Thick Border)" [fillcolor=gold, penwidth=3, fontweight=bold];
+        "QUAKER Family\n(Thick Border)" [fillcolor=lightpink, penwidth=2, fontweight=bold];
+        "QUAKER Contacts\n(Thick Border)" [fillcolor=lightcyan, penwidth=2, fontweight=bold];
+        "QUAKER Businesses\n(Thick Border)" [fillcolor=lightgray, penwidth=2, fontweight=bold, shape=diamond];
+        "Innovations\n(Thick Border)" [fillcolor=orange, penwidth=2, fontweight=bold, shape=diamond];
+        "Philanthropy\n(Thick Border)" [fillcolor=plum, penwidth=2, fontweight=bold, shape=diamond];
+    }
+}
+
